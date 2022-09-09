@@ -53,7 +53,7 @@ def searching():
     print(list1)
     time.sleep(2.5)
     #If the list most likely ISN'T sorted, the code sorts it for you
-    if not sorted(list1):
+    if list1 != sorted(list1):
         print("Something looks off. Let's sort it shall we?")
         list1.sort()
         time.sleep(2.5)
